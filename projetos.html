@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Projetos - Simuladores de Automação Industrial</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a href="../index.html">🏠 Principal</a>
+            <a href="./disjuntor.html">⚡ Disjuntor</a>
+            <a href="./contador.html">🔄 Contator</a>
+            <a href="./chave_manopla.html">🔑 Chave Manopla</a>
+            <a href="./botao_pulso.html">🔘 Botão Pulso</a>
+            <a href="./sensores.html">📡 Sensores</a>
+            <a href="./multímetro.html">📊 Multímetro</a>
+            <a href="../projetos.html">📚 Projetos</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>📚 Simuladores de Prática</h1>
+        <p>Conheça todos os nossos simuladores interativos de automação industrial</p>
+    </div>
+
+    <img src="./IMG/LOGO.png" alt="">
+
+    <div class="container">
+        <h2>Práticas de Automação</h2>
+        
+        <div class="grid-images">
+            <div class="img-card">
+                <video src="./simulares/e1.mp4" controls></video>
+                <h3>Prática 01</h3>
+                <p>Com o disjuntor D1 fechado, a tensão chega até a entrada do botão B1.
+
+Ao pressionar B1: O contato NA se fecha, completando o circuito e acendendo a lâmpada H1.</p>
+            </div>
+            
+            <div class="img-card">
+                <video src="./simulares/e2.mp4" controls></video>
+                <h3>Prática 02</h3>
+                <p>Em repouso (B1 solto): A corrente flui pelo contato NF , mantendo a lâmpada H1 acesa (sinalizando repouso/desligado). A lâmpada H2 fica apagada.Ao pressionar B1: Os contatos comutam simultaneamente — o NF abre (apagando H1) e o NA fecha (acendendo H2, sinalizando acionamento).Ao soltar B1: Os contatos voltam ao estado inicial, reacendendo H1 e apagando H2..</p>
+            </div>
+
+            <div class="img-card">
+               <img src="./IMG/OQUE É CADA um.png" alt="">
+                <h3>Prática 03</h3>
+                <p>Aplicação de conceitos avançados em circuitos de automação industrial.</p>
+            </div>
+
+            <div class="img-card">
+                <video src="./simulares/v10.mp4" controls></video>
+                <h3>Prática 04</h3>
+                <p>Como funciona: O circuito de comando em  aciona a bobina de um contator. Quando energizado, o contator fecha seus contatos principais de potência , permitindo a passagem de corrente para alimentar dispositivos de maior potência (como motores ou sistemas de grande porte).</p>
+            </div>
+
+            <div class="img-card">
+             <video src="./simulares/v9.mp4" controls></video>
+                <h3>Prática 05</h3>
+                <p>Usa botões de pulso para dar partida e parada no circuito.
+
+O contato de selo mantém a bobina do contator energizada mesmo após o operador soltar o botão de partida.
+
+Botões de emergência e contatos de proteção atuam desarmando o circuito instantaneamente em caso de falha.</p>
+            </div>
+
+            <div class="img-card">
+            <img src="./IMG/CPU.png" alt="">
+                <h3>Prática 06</h3>
+                <p>Como funciona:
+
+No software de automação (TIA Portal), seleciona-se e configura-se a CPU do CLP (linha Siemens S7-1200, como a CPU 1215C).
+
+Define-se o hardware de entradas e saídas digitais/analógicas que irão substituir a fiação física complexa por lógica de programação (Ladder/FBD).</p>
+            </div>
+
+            <div class="img-card">
+                <video src="./simulares/v12.mp4" controls></video>
+                <h3>Prática 07</h3>
+                <p>Como funciona: Utiliza múltiplos contatores e temporizadores no bancada de testes para controlar sequências de acionamento — como reduzir a corrente de pico na partida do motor (Estrela-Triângulo) ou alterar o sentido de rotação das fases, garantindo partidas suaves e seguras.</p>
+            </div>
+
+            <div class="img-card">
+            <video src="./simulares/v11.mp4" controls></video>
+                <h3>Prática 08</h3>
+                <p>Como funciona: O painel é configurado para testar temporizações de retardo na energização/desenergização. Ao ligar o comando, o temporizador conta o tempo definido  antes de acionar o próximo contator ou acender as sinaleiras de indicação..</p>
+            </div>
+
+            <div class="img-card">
+          <img src="./IMG/si.png" alt="">
+                <h3>Prática 09</h3>
+                <p>Como funciona:
+
+São programados blocos temporizadores como TON (Timer On-Delay) e TOF (Timer Off-Delay).
+
+Ao ativar uma entrada (ex: "Sensor"), o bloco executa a contagem de tempo via software antes de ligar ou desligar as saídas (ex: "motor1" ou "valvula1").</p>
+            </div>
+
+            <div class="img-card">
+             <video src="./simulares/e7.mp4" controls></video>
+                <h3>Prática 10</h3>
+                <p>Como funciona:
+
+Circuito de Comando (à esquerda): Utiliza uma lógica mais complexa com múltiplos botões, contatos auxiliares, retenções e intertravamentos de segurança para coordenar a sequência de acionamento.
+
+Circuito de Potência (à direita): Controla a alimentação trifásica do motor elétrico, permitindo operações como partida sequencial, chaveamento de velocidade ou inversão de rotação.</p>
+            </div>
+
+            <div class="img-card">
+                <video src="./simulares/e6.mp4" controls></video>
+                <h3>Prática 11</h3>
+                <p>Como funciona:Circuito de Comando Pressionando o botão B1, a bobina do contator K1 é energizada.O contato de selo K1 ($13\text{--}14$) mantém a bobina alimentada mesmo após soltar o botão B1.A lâmpada H1 acende indicando funcionamento.Pressionar o botão B0  ou se o Relé Térmico F1 detectar sobrecarga, o circuito abre e desliga o contator imediatamente.Circuito de Potência (Fases $L1, L2, L3$):A corrente trifásica passa pelo disjuntor D2, pelos contatos principais de K1 e pelo relé de sobrecarga F1, alimentando diretamente os terminais ($U1, V1, W1$) do Motor M1.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Automação Industrial - Plataforma de Aprendizado</p>
+        <p>Desenvolvido com ❤️ para fins educacionais</p>
+    </footer>
+</body>
+</html>
+
+ 
+    
+</body>
+</html>

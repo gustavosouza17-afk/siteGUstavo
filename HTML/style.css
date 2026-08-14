@@ -1,0 +1,121 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+    text-align: center;
+    border-radius: 10px ; 
+}
+
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+}
+
+/* Cabeçalho */
+header {
+    background: #f5f5f5;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Botões */
+button {
+    background: #333333;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1a1a1a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Cards */
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    
+    
+}
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #d0d0d0;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+}
+
+footer {
+    background: #f5f5f5;
+    color: #666666;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+img {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.texto-box {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    background: #fafafa;
+}
+
+.cartao-componente{
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    
+    
+}
+
+
